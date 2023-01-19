@@ -1,4 +1,4 @@
-[![Screenshot of the Website]((https://raw.githubusercontent.com/GDG-Cloud-Sherbrooke-WTM/GDG-Cloud-Sherbrooke-WTM.github.io/tree/master/assets/screenshot.png)](https://gdg-cloud-sherbrooke-wtm.github.io/)
+[![Screenshot of the Website](https://raw.githubusercontent.com/GDG-Cloud-Sherbrooke-WTM/GDG-Cloud-Sherbrooke-WTM.github.io/tree/master/assets/screenshot.png)](https://gdg-cloud-sherbrooke-wtm.github.io/)
 
 ---
 
