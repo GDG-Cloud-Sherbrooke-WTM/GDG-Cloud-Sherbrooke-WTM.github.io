@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <base href="..">
+    <link rel="shortcut icon" type="image/png" href="assets/WTM_logo.png"/>
+    <link rel="stylesheet" type="text/css" media="all" href="assets/main.css"/>
+    <meta name="description" content="Conference Template">
+    <meta name="resource-type" content="document">
+    <meta name="distribution" content="global">
+    <meta name="KeyWords" content="Conference">
+    <title>Flyer | WTM</title>
+</head>
+
+<body>
+
+    <div class="banner">
+        <img src="assets/1620410228900.jpg" alt="WTM Dare to be!" style="width:100%;height:150%;">
+        <div class="top-left">
+            <span class="title1">WTM</span><span class="title2"> </span>Dare to be! <span class="year">2023</span>
+        </div>
+        <div class="bottom-right">
+            March 18, 2023 <br> University of Sherbrooke, Québec, Canada
+        </div>
+    </div>
+
+    <table class="navigation">
+        <tr>
+            <td class="navigation">
+                <a title="Conference Home Page" href=".">Home</a>
+            </td>
+            <td class="navigation">
+                <a title="Register for the Conference" href="registration">Registration</a>
+            </td>
+            <td class="navigation">
+                <a title="Conference Program" href="program">Program</a> 
+            </td>
+            <td class="navigation">
+                <a class="current" title="Speaker List" href="speaker">Speaker</a>
+            </td>
+            <td class="navigation">
+                <a title="Directions to the Conference" href="directions">Directions</a>
+            </td>
+            <!--<td class="navigation">
+                <a title="Conference Flyer" href="flyer">Flyer</a>
+            </td>-->
+        </tr>
+    </table>
+
+    <br>
+    
+        <h2> <b> Harshita Jain </b> </h2>
+        <h4> <b> Women in Artificial Intelligence - mitigating gender bias </b> </h4>
+    <!--<p>
+        Here&rsquo;s a good place to list the organizers and sponsors of the conference,
+        as well as list contact information for the organizers,
+        and show off the logos of the sponsors.
+        It looks like his conference was sponsored by kittens!
+    </p>-->
+    <table class="sponsors">
+        <tr>
+            <td class="sponsor" colspan="2">
+                <img src="assets/ali.jpg" alt="Alitzel Lopez Sanchez" style="width:100%;height:100%;">
+            </td>
+            <td class="abstract" colspan="1">
+            </td>
+            <td class="abstract" colspan="2">
+                <h3>Bio</h3> My name is Harshita Jain and I am a master`s student at University of Montreal with a major in Machine Learning.  I moved to Canada in August`22 for post graduation and used to live in India before. Having 2+ years of work experience in the field of computer science, it is my honour to learn more deeply into this field now. Outside my work and studies, I love playing sudoku and baking cakes. 
+
+ <br>
+            </td>
+        </tr>
+        <tr>
+            <!--<td class="abstract" colspan="2" style="border-bottom: 1px solid black;">-->
+             <td class="abstract" colspan="5">
+                <h3>Summary</h3> Are algorithms sexist? This is a question that has been frequently appearing in the mass media, and the debate has typically been far from a scientific analysis. Gender-biased AI not only has immense impacts on individuals but also can contribute to setbacks in gender equality and women’s empowerment. The impact of artificial intelligence (AI) is significant in almost every industry. As many important decisions are now being automated by various AI applications, fairness is fast becoming a vital concern in AI. Moreover, the related literature and industry press suggest that AI systems are often biased towards gender. Thus, there is a need to better understand the contributing factors behind gender bias in AI, along with the current approaches taken to address it.<br><br>
+            </td>
+        </tr>
+        
+    </table>
+
+    <footer>
+        &copy; Conference Organizers
+    </footer>
+
+</body>
+</html>
