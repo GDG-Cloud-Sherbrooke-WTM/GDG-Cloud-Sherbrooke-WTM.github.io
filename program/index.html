@@ -5,6 +5,13 @@
     <base href="..">
     <link rel="shortcut icon" type="image/png" href="assets/WTM_logo.png"/>
     <link rel="stylesheet" type="text/css" media="all" href="assets/main.css"/>
+
+    <meta name="description" content="Conference Template">
+    <meta name="resource-type" content="document">
+    <meta name="distribution" content="global">
+    <meta name="KeyWords" content="Conference">
+    <title>Program | WTM</title>
+    
     <script type="text/javascript" async
         src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=default">
         
@@ -12,26 +19,19 @@
         const x = setInterval(()=> {
             const now = new Dtae().getTime();
             const distance = CountDownDate - now;
-            
             const days = Math.floor(distance / (1000 * 60 * 60 * 24));
             const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
             const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
             const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-  document.getElementById("countdown").innerHTML = `${days}d ${hours}h ${minutes}m ${seconds}s`;
-
-  if (distance < 0) {
-    clearInterval(x);
-    document.getElementById("countdown").innerHTML = "The conference has started!";
-  }
+       document.getElementById("countdown").innerHTML = `${days}d ${hours}h ${minutes}m ${seconds}s`;
+       if (distance < 0) {
+       clearInterval(x);
+       document.getElementById("countdown").innerHTML = "The conference has started!";
+      }
 }, 1000);
         }
    </script>
-    <meta name="description" content="Conference Template">
-    <meta name="resource-type" content="document">
-    <meta name="distribution" content="global">
-    <meta name="KeyWords" content="Conference">
-    <title>Program | WTM</title>
 </head>
 
 <body>
@@ -54,6 +54,7 @@
             <td class="navigation">
                 <a title="Register for the Conference" href="registration">Registration</a>
             </td>
+            
             <td class="navigation">
                 <a class="current" title="Conference Program" href="program">Program</a> 
             </td>
@@ -70,6 +71,10 @@
     </table>
 
     <h2>Conference Program</h2>
+    
+    <p>Countdown to conference:</p>
+    <div id="countdown"></div>
+
 
     <table class="plenary">
         <tr>
